@@ -60,25 +60,36 @@
     <Analyzer Include="E:\new unity stuff\2022.3.44f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\2D Progress Bar Toolkit\Scripts\ClassicProgressBar.cs" />
+    <Compile Include="Assets\2ndscripts\enableincinerate.cs" />
+    <Compile Include="Assets\assets for 1stprto\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\scripts\camerachange.cs" />
+    <Compile Include="Assets\assets for 1stprto\2D Progress Bar Toolkit\Scripts\ClassicProgressBar.cs" />
     <Compile Include="Assets\scripts\rockanim.cs" />
+    <Compile Include="Assets\assets for 1stprto\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\scripts\money.cs" />
+    <Compile Include="Assets\assets for 1stprto\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\2ndscripts\dumpgarage.cs" />
+    <Compile Include="Assets\2ndscripts\dump.cs" />
     <Compile Include="Assets\scripts\CylinderTriggerUpgrade.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
-    <Compile Include="Assets\2D Progress Bar Toolkit\Scripts\CircularProgressBar.cs" />
+    <Compile Include="Assets\2ndscripts\money.cs" />
+    <Compile Include="Assets\2ndscripts\garageupgrade.cs" />
+    <Compile Include="Assets\2ndscripts\save.cs" />
+    <Compile Include="Assets\2ndscripts\car.cs" />
+    <Compile Include="Assets\assets for 1stprto\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\assets for 1stprto\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\2ndscripts\dumpupgrade.cs" />
+    <Compile Include="Assets\2ndscripts\offlineearning.cs" />
     <Compile Include="Assets\scripts\unlockanim.cs" />
     <Compile Include="Assets\scripts\gamedatamanager.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\assets for 1stprto\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\scripts\charactercontrol.cs" />
+    <Compile Include="Assets\assets for 1stprto\Mini Simple Characters Skeleton Demo\Readme\Scripts\Readme.cs" />
     <Compile Include="Assets\scripts\manager.cs" />
+    <Compile Include="Assets\assets for 1stprto\2D Progress Bar Toolkit\Scripts\CircularProgressBar.cs" />
+    <Compile Include="Assets\assets for 1stprto\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\scripts\unlock.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
-    <Compile Include="Assets\Mini Simple Characters Skeleton Demo\Readme\Scripts\Readme.cs" />
+    <Compile Include="Assets\2ndscripts\incineration.cs" />
+    <Compile Include="Assets\2ndscripts\camera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -96,7 +107,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\2D Progress Bar Toolkit\README.txt" />
+    <None Include="Assets\assets for 1stprto\2D Progress Bar Toolkit\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -985,6 +996,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -999,6 +1014,10 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
@@ -1023,6 +1042,14 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">

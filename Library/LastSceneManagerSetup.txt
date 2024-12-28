@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/1stprototype.unity
+- path: Assets/trashtycoon.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

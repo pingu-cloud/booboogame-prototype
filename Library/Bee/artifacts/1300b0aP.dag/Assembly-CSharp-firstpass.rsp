@@ -305,6 +305,8 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.InputSystem.ForUI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Splines.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Core.ref.dll"
